@@ -15,7 +15,7 @@ if (lado1 == lado2 && lado2 == lado3)
 {
     Console.WriteLine($"Temos um triangulo equilatero! Todos os lado sao iguas");
 } 
-else if (lado1 != lado2 && lado2 != lado3)
+else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3)
 {
     Console.WriteLine($"Temos um triangulo escaleno! Todos os lados sao diferentes");
 }
